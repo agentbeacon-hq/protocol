@@ -10,8 +10,8 @@
     "expires": "2026-10-26T05:01:58.000Z"
   },
   "verification": {
-    "issuer": "openpath.sh",
-    "summary": "Seeded by Beacon from Cedar Street Taqueria’s job board, read again every day. Its employer isn’t on Beacon yet: a message waits 30 days for it to join."
+    "issuer": "agentbeacon.sh",
+    "summary": "Seeded by AgentBeacon from Cedar Street Taqueria’s job board, read again every day. Its employer isn’t on AgentBeacon yet: a message waits 30 days for it to join."
   },
-  "link": "https://openpath.sh/beacon/2a4c6e8f-1b3d-4f5a-8c7e-9d0b1a2c3e4f"
+  "link": "https://agentbeacon.sh/beacon/2a4c6e8f-1b3d-4f5a-8c7e-9d0b1a2c3e4f"
 }

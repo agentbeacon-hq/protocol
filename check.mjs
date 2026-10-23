@@ -32,7 +32,7 @@ const component = openapi.components?.schemas?.Beacon
 if (!component) fail('openapi.yaml', 'no Beacon schema')
 else {
   const plain = (s) => JSON.stringify(s).replaceAll('#/components/schemas/', '#/$defs/')
-  const { $schema, title, description, $defs, ...beacon } = schema
+  const { $schema, $id, title, description, $defs, ...beacon } = schema
   if (plain(component) !== plain(beacon)) fail('openapi.yaml', 'its Beacon differs from schema/beacon.schema.json')
   for (const [name, def] of Object.entries($defs))
     if (plain(openapi.components.schemas[name]) !== plain(def))

@@ -10,8 +10,8 @@
     "expires": "2026-11-07T23:00:00.000Z"
   },
   "verification": {
-    "issuer": "openpath.sh",
-    "summary": "Seeded by Beacon from public data: Meta via Overture Maps, CDLA-Permissive-2.0. Read again each month. Its business isn’t on Beacon yet: a message waits 30 days for it to join."
+    "issuer": "agentbeacon.sh",
+    "summary": "Seeded by AgentBeacon from public data: Meta via Overture Maps, CDLA-Permissive-2.0. Read again each month. Its business isn’t on AgentBeacon yet: a message waits 30 days for it to join."
   },
-  "link": "https://openpath.sh/beacon/0b6f3c2e-5d1a-4f7e-9a2b-1c3d4e5f6a7b"
+  "link": "https://agentbeacon.sh/beacon/0b6f3c2e-5d1a-4f7e-9a2b-1c3d4e5f6a7b"
 }

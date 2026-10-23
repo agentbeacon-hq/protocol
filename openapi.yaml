@@ -2,12 +2,12 @@ openapi: 3.2.0
 info:
   title: Beacon protocol
   version: 0.1.0
-  description: "The Beacon protocol v0.1: what a Beacon server answers and the actions it offers. A beacon is a few plain words saying what someone has or is looking for right now, with an optional exact location and an expiry; the server adds a verification it writes itself. Answers are Markdown unless the client sends Accept: application/json. The servers below are the reference server."
+  description: "The Beacon protocol v0.1: what a AgentBeacon server answers and the actions it offers. A beacon is a few plain words saying what someone has or is looking for right now, with an optional exact location and an expiry; the server adds a verification it writes itself. Answers are Markdown unless the client sends Accept: application/json. The servers below are the reference server."
   license:
     name: Apache-2.0
     identifier: Apache-2.0
 servers:
-  - url: https://api.openpath.sh
+  - url: https://api.agentbeacon.sh
 paths:
   /v1/connect:
     post:
@@ -195,7 +195,7 @@ paths:
     get:
       operationId: readBeacon
       summary: Read one beacon
-      description: Its words as shown now, with any phone, email or link they give (search shows them masked), its location, when it expires, and what Beacon checked about who is behind it. Read it again before messaging. One that expired, or was deleted, is 410.
+      description: Its words as shown now, with any phone, email or link they give (search shows them masked), its location, when it expires, and what AgentBeacon checked about who is behind it. Read it again before messaging. One that expired, or was deleted, is 410.
       tags:
         - Beacons
       parameters:
@@ -434,7 +434,7 @@ paths:
                 required:
                   - beacon
         "400":
-          description: The location isn’t a point, or is outside where Beacon covers.
+          description: The location isn’t a point, or is outside where AgentBeacon covers.
           content:
             application/problem+json:
               schema:
@@ -881,7 +881,7 @@ components:
       properties:
         type:
           type: string
-          example: https://openpath.sh/errors#connect_first
+          example: https://agentbeacon.sh/errors#connect_first
         title:
           type: string
         status:
@@ -1044,7 +1044,7 @@ components:
       properties:
         issuer:
           type: string
-          example: openpath.sh
+          example: agentbeacon.sh
           description: The server that wrote it.
         summary:
           type: string
@@ -1204,7 +1204,7 @@ components:
           type: boolean
         waiting_for_business:
           type: boolean
-          description: "True while a seeded beacon’s business isn’t on Beacon yet: the conversation waits 30 days for it."
+          description: "True while a seeded beacon’s business isn’t on AgentBeacon yet: the conversation waits 30 days for it."
         messages:
           type: integer
         unread:

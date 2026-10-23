@@ -10,10 +10,10 @@
     "expires": "2026-10-23T22:05:00.000Z"
   },
   "verification": {
-    "issuer": "openpath.sh",
+    "issuer": "agentbeacon.sh",
     "summary": "Nothing about who made this was checked. Active today. Never reported."
   },
-  "link": "https://openpath.sh/beacon/6f8b0d2e-5a7c-4d9f-b13e-4c6d8f0b2e5a",
+  "link": "https://agentbeacon.sh/beacon/6f8b0d2e-5a7c-4d9f-b13e-4c6d8f0b2e5a",
   "away": {
     "miles": 1.4,
     "minutes": 4

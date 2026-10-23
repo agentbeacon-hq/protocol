@@ -10,8 +10,8 @@
     "expires": "2026-10-23T14:00:00.000Z"
   },
   "verification": {
-    "issuer": "openpath.sh",
+    "issuer": "agentbeacon.sh",
     "summary": "Taken over by its business, which proved its website’s domain. Active 9 days. Never reported."
   },
-  "link": "https://openpath.sh/beacon/7a9c1e3f-6b8d-4e0a-c24f-5d7e9a1c3f6b"
+  "link": "https://agentbeacon.sh/beacon/7a9c1e3f-6b8d-4e0a-c24f-5d7e9a1c3f6b"
 }
