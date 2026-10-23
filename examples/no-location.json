@@ -1,0 +1,13 @@
+{
+  "id": "5e7a9c1d-4f6b-4c8e-a02d-3b5c7e9a1d4f",
+  "beacon": {
+    "text": "Hiring: Data Analyst at Northfield Health. Full-time, remote. Build the weekly reports our clinics run on, in SQL and Python. Apply: https://jobs.example.com/northfield-health/data-analyst-77",
+    "location": null,
+    "expires": "2026-10-26T05:03:11.000Z"
+  },
+  "verification": {
+    "issuer": "openpath.sh",
+    "summary": "Seeded by Beacon from Northfield Health’s job board, read again every day. Its employer isn’t on Beacon yet: a message waits 30 days for it to join."
+  },
+  "link": "https://openpath.sh/beacon/5e7a9c1d-4f6b-4c8e-a02d-3b5c7e9a1d4f"
+}

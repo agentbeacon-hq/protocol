@@ -1,0 +1,16 @@
+{
+  "name": "beacon-protocol",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The Beacon protocol: the spec, its JSON Schema, OpenAPI and examples.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "check": "node check.mjs"
+  },
+  "devDependencies": {
+    "ajv": "8.17.1",
+    "ajv-formats": "3.0.1",
+    "yaml": "2.9.1"
+  }
+}

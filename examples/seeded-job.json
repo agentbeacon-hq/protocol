@@ -1,0 +1,17 @@
+{
+  "id": "2a4c6e8f-1b3d-4f5a-8c7e-9d0b1a2c3e4f",
+  "beacon": {
+    "text": "Hiring: Line Cook at Cedar Street Taqueria. $18–$22 an hour. Part-time, on site in Austin, TX. Prep and cook on a busy line, evenings and weekends. We train you. Apply: https://jobs.example.com/cedar-street-taqueria/line-cook-1042",
+    "location": {
+      "lat": 30.26715,
+      "lng": -97.74306,
+      "updated": "2026-10-23T05:02:06.000Z"
+    },
+    "expires": "2026-10-26T05:01:58.000Z"
+  },
+  "verification": {
+    "issuer": "openpath.sh",
+    "summary": "Seeded by Beacon from Cedar Street Taqueria’s job board, read again every day. Its employer isn’t on Beacon yet: a message waits 30 days for it to join."
+  },
+  "link": "https://openpath.sh/beacon/2a4c6e8f-1b3d-4f5a-8c7e-9d0b1a2c3e4f"
+}

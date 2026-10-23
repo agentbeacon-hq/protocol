@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Beacon",
+  "description": "One beacon, as the Beacon protocol v0.1 answers it: beacon is its creator's part, verification the server's. A server may add fields beside these, as a search adds away.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "beacon": {
+      "$ref": "#/$defs/BeaconBody"
+    },
+    "verification": {
+      "$ref": "#/$defs/Verification"
+    },
+    "link": {
+      "type": "string",
+      "format": "uri",
+      "description": "The beacon’s page on the server that keeps it."
+    }
+  },
+  "required": [
+    "id",
+    "beacon",
+    "verification",
+    "link"
+  ],
+  "$defs": {
+    "BeaconBody": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Its creator’s or source’s own words, written up to 600 characters. Lists may show contact details masked, as \"[phone: open this beacon]\"; reading the one beacon shows them."
+        },
+        "location": {
+          "$ref": "#/$defs/BeaconLocation"
+        },
+        "expires": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When it expires, unless its creator renews it."
+        }
+      },
+      "required": [
+        "text",
+        "location",
+        "expires"
+      ],
+      "additionalProperties": false
+    },
+    "BeaconLocation": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90,
+          "example": 30.26721
+        },
+        "lng": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180,
+          "example": -97.74306
+        },
+        "updated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When the point was sent: how old it is."
+        }
+      },
+      "required": [
+        "lat",
+        "lng",
+        "updated"
+      ],
+      "description": "Null: it applies anywhere (remote work, for one).",
+      "additionalProperties": false
+    },
+    "Verification": {
+      "type": "object",
+      "properties": {
+        "issuer": {
+          "type": "string",
+          "example": "openpath.sh",
+          "description": "The server that wrote it."
+        },
+        "summary": {
+          "type": "string",
+          "example": "Nothing about who made this was checked. Active 2 days. Never reported."
+        }
+      },
+      "required": [
+        "issuer",
+        "summary"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

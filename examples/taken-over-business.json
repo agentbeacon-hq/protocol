@@ -1,0 +1,17 @@
+{
+  "id": "7a9c1e3f-6b8d-4e0a-c24f-5d7e9a1c3f6b",
+  "beacon": {
+    "text": "Riverbend Plumbing Co.: free this afternoon for leaks and clogs, within 10 miles of 78704. Call-out $75. Book at riverbendplumbing.example.com/book.",
+    "location": {
+      "lat": 30.2459013,
+      "lng": -97.7680922,
+      "updated": "2026-10-23T13:00:00.000Z"
+    },
+    "expires": "2026-10-23T14:00:00.000Z"
+  },
+  "verification": {
+    "issuer": "openpath.sh",
+    "summary": "Taken over by its business, which proved its website’s domain. Active 9 days. Never reported."
+  },
+  "link": "https://openpath.sh/beacon/7a9c1e3f-6b8d-4e0a-c24f-5d7e9a1c3f6b"
+}

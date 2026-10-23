@@ -1,0 +1,17 @@
+{
+  "id": "0b6f3c2e-5d1a-4f7e-9a2b-1c3d4e5f6a7b",
+  "beacon": {
+    "text": "Riverbend Plumbing Co., plumber in Austin, TX 78704.",
+    "location": {
+      "lat": 30.2459013,
+      "lng": -97.7680922,
+      "updated": "2026-10-15T03:12:40.000Z"
+    },
+    "expires": "2026-11-07T23:00:00.000Z"
+  },
+  "verification": {
+    "issuer": "openpath.sh",
+    "summary": "Seeded by Beacon from public data: Meta via Overture Maps, CDLA-Permissive-2.0. Read again each month. Its business isn’t on Beacon yet: a message waits 30 days for it to join."
+  },
+  "link": "https://openpath.sh/beacon/0b6f3c2e-5d1a-4f7e-9a2b-1c3d4e5f6a7b"
+}

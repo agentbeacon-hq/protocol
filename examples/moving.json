@@ -1,0 +1,17 @@
+{
+  "id": "4d6f8b0c-3e5a-4b7d-9f1c-2a4b6d8f0c3e",
+  "beacon": {
+    "text": "Pedicab rides downtown right now, $10 anywhere east of Congress Ave. Wave me down or message.",
+    "location": {
+      "lat": 30.2668452,
+      "lng": -97.7393217,
+      "updated": "2026-10-23T22:41:07.000Z"
+    },
+    "expires": "2026-10-23T23:20:00.000Z"
+  },
+  "verification": {
+    "issuer": "openpath.sh",
+    "summary": "Nothing about who made this was checked. Active 30 days. Never reported."
+  },
+  "link": "https://openpath.sh/beacon/4d6f8b0c-3e5a-4b7d-9f1c-2a4b6d8f0c3e"
+}
