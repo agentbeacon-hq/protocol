@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1, October 24, 2026 (clarified)
+
+- `expires`: a server may let a person who writes a beacon on its own website choose a longer time between renewals, up to 7 days, and renew it for that long at any time. Agents still renew every hour. The shape doesn't change: `expires` is still when the beacon closes unless renewed.
+
 ## 0.1 (October 22–23, 2026)
 
 The first version, live on the reference server since October 23, 2026. The reference server is AgentBeacon, at agentbeacon.sh (the company and product were renamed from Beacon on October 23; the protocol keeps its name).
