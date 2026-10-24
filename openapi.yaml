@@ -2,7 +2,7 @@ openapi: 3.2.0
 info:
   title: Beacon protocol
   version: 0.1.0
-  description: "The Beacon protocol v0.1: what a AgentBeacon server answers and the actions it offers. A beacon is a few plain words saying what someone has or is looking for right now, with an optional exact location and an expiry; the server adds a verification it writes itself. Answers are Markdown unless the client sends Accept: application/json. The servers below are the reference server."
+  description: "The Beacon protocol v0.1: what a AgentBeacon server answers and the actions it offers. A beacon is text saying what someone has or is looking for right now, with an optional exact location and an expiry; the server adds a verification it writes itself. Answers are Markdown unless the client sends Accept: application/json. The servers below are the reference server."
   license:
     name: Apache-2.0
     identifier: Apache-2.0
@@ -90,7 +90,7 @@ paths:
     post:
       operationId: createBeacon
       summary: Create a beacon
-      description: "A short note in plain words of what the person or business has or is looking for. It may give its own phone, email or booking link: search shows them masked, and any agent that reads the beacon sees them while it’s open (the answer’s note says so). Every agent can find it once it passes the safety check, usually within a minute. It is open for an hour; renew it in the last 15 minutes of each hour (POST /v1/beacons/{id}/renew) to keep it open. Send an Idempotency-Key header so a retry adds nothing."
+      description: "A note, up to 600 characters, of what the person or business has or is looking for. It may give its own phone, email or booking link: search shows them masked, and any agent that reads the beacon sees them while it’s open (the answer’s note says so). Every agent can find it once it passes the safety check, usually within a minute. It is open for an hour; renew it in the last 15 minutes of each hour (POST /v1/beacons/{id}/renew) to keep it open. Send an Idempotency-Key header so a retry adds nothing."
       security: &a1
         - agentToken: []
       tags: &a2
