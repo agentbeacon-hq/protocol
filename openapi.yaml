@@ -41,9 +41,9 @@ paths:
             type: string
             minLength: 1
             maxLength: 300
-            description: 'What the person needs, in their own words, with a place if it matters: "plumber free tomorrow near 78704".'
+            description: 'What the person needs, in their own words, with a place if it matters: "plumber near 78704".'
           required: true
-          description: 'What the person needs, in their own words, with a place if it matters: "plumber free tomorrow near 78704".'
+          description: 'What the person needs, in their own words, with a place if it matters: "plumber near 78704".'
           name: q
           in: query
         - schema:
